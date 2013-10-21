@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>animaDIV</title>
+	<link rel="stylesheet" href="src/css/animate.css">
+
+
+	<style>
+
+		#foo, #foo2 {
+			width: 100px;height: 100px;
+			background-color: black;
+		}
+
+	</style>
+</head>
+<body>
+
+	<h1>animaDIV</h1>
+	<div id="foo"></div>
+	<div id="foo2"></div>
+	
+	<p id="para">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, molestiae, sequi eveniet placeat eum ullam possimus velit impedit voluptatibus et eligendi ab illum nostrum autem at aliquam minima dignissimos fugit dolore fugiat illo numquam laborum. Nostrum, ratione, similique, rem consequuntur impedit veritatis atque dolore ullam voluptatum tempore molestias nobis nam. Vitae, repellat, sapiente atque hic minus totam harum animi recusandae vel iste distinctio sint vero maiores quis porro dolores inventore accusantium quasi commodi neque non aperiam quos earum ut nesciunt odio soluta eligendi. Porro dicta molestias sint cumque ducimus inventore illo. Fugiat consequuntur excepturi non officiis id praesentium vel animi!
+	</p>
+	<script type="text/javascript" src="src/js/animaDIV.js"></script>
+	
+	<script type="text/javascript">
+		animaDIV("foo",1,"animaDown","ease-in",.5,true);
+		animaDIV("foo2",2,"zoomIn","ease-in",1,true);
+		animaDIV("para",3,"surgir","ease-in",1,true);
+	</script>
+
+</body>
+</html>
